@@ -171,3 +171,42 @@
 .footer__links a:hover {
   color: var(--color-text);
 }
+
+/* Hero breathing orb */
+.hero__orb {
+  position: absolute;
+  top: var(--space-6);
+  left: 50%;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  transform: translateX(-50%) scale(1);
+  background: radial-gradient(
+    circle,
+    var(--color-accent-warm) 0%,
+    var(--color-accent-cool) 45%,
+    transparent 70%
+  );
+  filter: blur(40px);
+  opacity: 0.55;
+  z-index: -1;
+  animation: breathe var(--duration-breath) var(--ease-breath) infinite alternate;
+}
+
+@keyframes breathe {
+  from {
+    transform: translateX(-50%) scale(1);
+    opacity: 0.45;
+  }
+  to {
+    transform: translateX(-50%) scale(1.25);
+    opacity: 0.65;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero__orb {
+    width: 340px;
+    height: 340px;
+  }
+}
