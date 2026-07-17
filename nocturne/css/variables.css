@@ -1,0 +1,59 @@
+:root {
+  /* Colors — backgrounds */
+  --color-bg: #0D1321;
+  --color-surface: #161D2E;
+  --color-surface-raised: #1D2740;
+
+  /* Colors — text */
+  --color-text: #F0EDE4;
+  --color-text-muted: #8A93A6;
+
+  /* Colors — accents */
+  --color-accent-warm: #E8B778;
+  --color-accent-warm-soft: #E8B77822;
+  --color-accent-cool: #8C7AE6;
+
+  /* Colors — borders */
+  --color-border: #2A3450;
+
+  /* Typography */
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Manrope', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+
+  --fs-eyebrow: 0.8rem;
+  --fs-body: 1rem;
+  --fs-body-lg: 1.15rem;
+  --fs-h3: 1.5rem;
+  --fs-h2: 2.25rem;
+  --fs-h1: clamp(2.5rem, 5vw + 1rem, 4.5rem);
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  --lh-tight: 1.15;
+  --lh-normal: 1.6;
+
+  /* Spacing scale (8px base) */
+  --space-1: 0.5rem;   
+  --space-2: 1rem;     
+  --space-3: 1.5rem;   
+  --space-4: 2rem;     
+  --space-6: 3rem;     
+  --space-8: 4rem;     
+  --space-12: 6rem;    
+
+  /* Layout */
+  --container-max: 1200px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+
+  /* Motion */
+  --ease-breath: cubic-bezier(0.45, 0, 0.55, 1);
+  --duration-breath: 4s;
+  --duration-fast: 0.2s;
+  --duration-normal: 0.4s;
+
+}
