@@ -7,7 +7,7 @@ layout, responsiveness, and a cohesive design system.
 
 ## Live demo
 
-[Add your deployed URL here once live]
+https://neuro-five-solutions.vercel.app/
 
 ## Why plain HTML/CSS/JS
 
